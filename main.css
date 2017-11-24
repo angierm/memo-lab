@@ -1,0 +1,44 @@
+body{
+  background-color: lightgrey;
+}
+
+hr{
+  border:2px solid black
+}
+main{
+
+}
+
+div{
+  background-image: url("assets/img/logo.png");
+  background-size: cover;
+}
+.card{
+  border: 1px solid black;
+  float: left;
+  height: 200px;
+  margin: 4% 6%;
+  width:20%
+}
+.card-1:hover {
+  background-image: url("assets/img/cabin.png");
+  background-position: center;
+}
+.card-2:hover {
+  background-image: url("assets/img/circus.png");
+  background-position: center;
+}
+
+.card-3:hover {
+  background-image: url("assets/img/game.png");
+  background-position: center;
+}
+
+.card-3:hover {
+  background-image: url("assets/img/cake.png");
+  background-position: center;
+}
+.comodin:hover {
+  background-color: pink;
+  background-position: center;
+}
