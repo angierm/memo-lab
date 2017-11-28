@@ -1,44 +1,56 @@
-body{
-  background-color:purple;
+
+body {
+ background-color: purple;
+ font-family:sans-serif;
+ font-size: 30px;
+ color: white;
+ text-align: center;
+
 }
 
 hr{
-  border:2px solid black
-}
-main{
-
+ border: 2px solid black;
 }
 
-div{
-  background-image: url("assets/img/logo.png");
-  background-size: cover;
-}
-.card{
-  border: 1px solid black;
-  float: left;
-  height: 200px;
-  margin: 4% 6%;
-  width:20%
-}
-.card-1:hover {
-  background-image: url("assets/img/cabin.png");
-  background-position: center;
-}
-.card-2:hover {
-  background-image: url("assets/img/circus.png");
-  background-position: center;
+div {
+ background-image: url("assets/img/logo.png");
+ background-position: center;
+ background-size: cover;
 }
 
-.card-3:hover {
-  background-image: url("assets/img/game.png");
-  background-position: center;
+.efects {
+ transform-style: preserve-3d;
+ transition: 2s;
 }
 
-.card-3:hover {
-  background-image: url("assets/img/cake.png");
-  background-position: center;
+.rotation-efect {
+ transform: rotateY(180deg);
 }
-.comodin:hover {
-  background-color: pink;
-  background-position: center;
-}
+
+.card {
+ border: 1px solid black;
+ float: right;
+ height: 200px;
+ margin: 4% 7%;
+ width: 18%;
+ }
+
+ .card-1:hover {
+   background-image:  url("assets/img/cabin.png");
+ }
+
+ .card-2:hover {
+   background-image: url("assets/img/circus.png");
+ }
+
+ .card-3:hover {
+   background-image: url("assets/img/game.png");
+ }
+
+ .card-4:hover {
+   background-image: url("assets/img/cake.png");
+ }
+
+ .card-comodin:hover {
+     background-color: pink;
+ }
