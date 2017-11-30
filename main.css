@@ -35,22 +35,22 @@ div {
  width: 18%;
  }
 
- .card-1:hover {
+.card-1[selected=true] {
    background-image:  url("assets/img/cabin.png");
  }
 
- .card-2:hover {
+ .card-2[selected=true] {
    background-image: url("assets/img/circus.png");
  }
 
- .card-3:hover {
+ .card-3[selected=true] {
    background-image: url("assets/img/game.png");
  }
 
- .card-4:hover {
+ .card-4[selected=true] {
    background-image: url("assets/img/cake.png");
  }
 
- .card-comodin:hover {
+ .card-comodin[selected=true] {
      background-color: pink;
  }
